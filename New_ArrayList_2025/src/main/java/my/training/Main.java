@@ -28,7 +28,7 @@ public class Main {
 
         arr.forEach((y) -> System.out.println(y + " "));
         System.out.println();
-        arr.set(1, 5);
+        arr.set(1, 5); // (index, element)  - фактично ми замінюємо елемент починаючи з нуля, ну в даному випадку за індексом 1
         arr.forEach((y) -> System.out.println(y + " "));
 
         arr.sort(new Comparator<Integer>() {
